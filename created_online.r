@@ -1,3 +1,5 @@
 # This file was created online
 x <- rnorm(100)
-barplot(x,border=F)
+plot(x,pch=19)
+x11()
+barplot(x)
